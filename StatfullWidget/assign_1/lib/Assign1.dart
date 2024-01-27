@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Assign1 extends StatefulWidget {
   const Assign1({super.key});
@@ -14,12 +15,15 @@ class _Assign1State extends State<Assign1> {
       _count = _count! + 2;
     });
   }
-                                
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Table Of 2"),
+        title: const Text(
+          "Instagram",
+          style: TextStyle(fontFamily: 'Billabong'),
+        ),
       ),
       body: Center(
         child: Column(

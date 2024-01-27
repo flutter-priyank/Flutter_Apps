@@ -6,7 +6,6 @@ class Assign3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: const Text("Assign_3"),

@@ -16,10 +16,11 @@ dev_dependencies:
   flutter_lints: ^2.0.0
 
 flutter:
+  uses-material-design: true
   fonts:
     - family: Billabong
-      fonts: fonts/Billabong.ttf 
-      weight: 400
+      fonts:
+        - asset: fonts/Billabong.ttf
+        
+    
 
-    - assets/fonts/Billabong.ttf
-  uses-material-design: true

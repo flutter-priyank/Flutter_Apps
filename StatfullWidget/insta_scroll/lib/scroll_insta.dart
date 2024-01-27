@@ -19,8 +19,8 @@ class _Assignment4State extends State<Assignment4> {
         title: const Text(
           "Instagram",
           style: TextStyle(
-            fontFamily: 'Billabong.ttf',
-            fontStyle: FontStyle.italic,
+            fontFamily: 'Billabong',
+            // fontStyle: FontStyle.italic,
             color: Colors.black,
             fontSize: 30,
           ),
